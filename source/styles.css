@@ -1,0 +1,324 @@
+html {
+    background: #FFF8F0;
+    font-size: 16px;
+}
+
+body {
+    max-width: 1240px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+h1 {
+    font-family: 'league spartan';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #190D37;
+    margin-top: 10px;
+
+}
+
+h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color:  #000000;
+
+}
+
+#content {
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
+    margin-bottom: 5px;
+}
+
+#contact-button {
+    width: 110px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+#contact-button:hover {
+    cursor: pointer;
+    box-shadow: 7px 7px 7px #18181B;
+    background-color: #D6D3D1;
+    color: #000000;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+#description {
+    width: 45%;
+    padding: 32px 20px 32px 20px;
+    margin-left: 30px;
+}
+
+#random {
+    width: 100%;
+}
+
+
+#image {
+    width: 55%;
+}
+
+#image-section {
+    width: 100%;
+}
+
+#head {
+    font-family: League Spartan;
+    line-height: 50px;
+}
+
+#phone {
+    padding-top: 20px;
+}
+
+#name {
+    margin-top: 52px;
+}
+
+
+
+#about {
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 50px;
+}
+
+.bigtext {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.smalltext {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-decoration: underline;
+}
+
+#skills {
+    display: flex;
+    padding-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.FBI {
+    width: 33%;
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+#head2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#content2 {
+    width: 55%;
+    margin: 0 auto;   
+}
+
+#projects {
+    width: 100%;
+    text-align: center;
+}
+
+.head3 {
+    width: 45%;
+    margin: 0 auto 16px auto;
+}
+
+.content3 {
+    width: 50%;
+    margin: 0 auto 12px auto;   
+}
+
+.projectContainer {
+    display: flex;
+    margin: 14px auto;
+    width: 100%;
+    text-align: left;
+    
+}
+
+.PN {
+    width: 160px;
+    height: 160px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 15px;
+    background-color: #19ACFF;
+    border-radius: 10px;
+}
+
+.pn {
+    padding: 65px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #1D4ED8;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.head4 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.vector {
+    margin: -3px;
+    padding-right: 2px;
+}
+
+#pricing-section {
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 50px;
+}
+
+#pricing-table {
+    display: flex;
+
+    
+}
+
+.pricing-box {
+    width: 30%;
+    text-align: left;
+    padding: 30px;
+    background-color: #FFFFFF;
+    margin: 16px 20px 20px 20px;
+    border: 1px solid  #000000;
+    
+    
+}
+
+.pricing-box:hover {
+    border: 4px solid #6B7280;
+    box-shadow: 10px 7px 10px #52525B;
+    
+}
+
+.service {
+    font-style: 'inter';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.service-benefits {
+    list-style: none;
+    padding: 0;
+    font-style: 'poppins';
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.service-benefits li {
+    margin-bottom: 8px;
+}
+
+.work {
+    color: #2858ff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.price {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-top: 8px;
+    color: #000000;
+}
+
+.price-per-page {
+    font-size: small;
+    color: #747474
+}
+
+.box2 {
+    background-color: rgb(200, 167, 21);
+}
+
+.box2 button {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.contact {
+    width: 100%;
+    height: 44px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact:hover {
+    
+    background-color:  #000000;
+    color: #FFFFFF;
+}
+
+.box2 button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    
+}
+
+.Footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
